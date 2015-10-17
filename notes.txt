@@ -1,4 +1,6 @@
 cd build/classes/main
 Start server
+  java TcpServer [-ssl] [-port=nnn]
 Start client in another temrinal
+  java TcpClient [-ss] [-port=nnn] [-host=host_name|IP_address]
 'quit' to quit
