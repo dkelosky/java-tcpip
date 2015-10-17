@@ -1,0 +1,9 @@
+apply plugin: 'application'
+apply plugin: 'java'
+
+mainClassName = 'TcpServer'
+
+task wrapper(type: Wrapper) {
+
+  gradleVersion = '2.7'
+}

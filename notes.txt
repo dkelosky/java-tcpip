@@ -1,0 +1,4 @@
+cd build/classes/main
+Start server
+Start client in another temrinal
+'quit' to quit
