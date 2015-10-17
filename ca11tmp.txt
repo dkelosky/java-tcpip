@@ -1,0 +1,9 @@
+open CA11 
+kelda16
+vbnm4567
+cd /a/kelda16/java/ssl 
+binary 
+put EchoServer.class 
+put EchoClient.class 
+put mySrvKeystore 
+quit 
