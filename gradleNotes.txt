@@ -1,3 +1,16 @@
+1. 'gradlew build' to build the jar
+2. build->libs->java_tcpip.js
+3. java -cp java_tcpip.jar TcpServer OR
+   java -cp java_tcpip.jar TcpClient 
+   
+   -> this does ClassPath in the jar and invokes the class specified
+4. you can specify a 'main' class in the manifest attribues and under mainClassName
+   in build.gradle, but I don't know what this means.
+   
+5. java -cp java-tcpip.jar TcpClient 
+
+>>> General notes <<<
+
 create a basic build.gradle then with wrapper task and update .gitignore
 ========================================================================
 gradle wrapper 

@@ -24,6 +24,8 @@ public class TcpParms {
   //constructor
   public TcpParms(String args[]) {
 
+    System.out.println("Usage: -ssl=[true|false], -host=[IP|HOSTNAME], -port=value");
+
     //set default values
     setDefaults();
 
